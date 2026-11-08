@@ -1,0 +1,40 @@
+/* NZ SEO Audit — admin metabox + dashboard styling. */
+.nzsa-score {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 10px;
+  margin: 0.6rem 0;
+  background: #f3f4f6;
+}
+.nzsa-score-num {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.nzsa-good .nzsa-score-num { color: #15803d; }
+.nzsa-good .nzsa-score { background: #dcfce7; }
+.nzsa-needs-work .nzsa-score-num { color: #b45309; }
+.nzsa-needs-work .nzsa-score { background: #fef3c7; }
+.nzsa-poor .nzsa-score-num { color: #b91c1c; }
+.nzsa-poor .nzsa-score { background: #fee2e2; }
+.nzsa-checks {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+.nzsa-checks li {
+  padding: 0.45rem 0;
+  border-top: 1px solid #e5e7eb;
+}
+.nzsa-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+}
+.nzsa-pass .nzsa-dot { background: #16a34a; }
+.nzsa-warn .nzsa-dot { background: #d97706; }
+.nzsa-fail .nzsa-dot { background: #dc2626; }
